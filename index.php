@@ -4,7 +4,7 @@
 
 session_start();
 
-$PASSWORD_VERSION = 1; // Change this when changing password (also in php/api.php)
+$PASSWORD_VERSION = %%password_version%%; // Change this when changing password (also in php/api.php)
 
 function isRemembered() {
     if (isset($_COOKIE['toon_remember'])) {
